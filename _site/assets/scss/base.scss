@@ -1,0 +1,46 @@
+$aqua: #67DED2;
+$red: #D12C72;
+
+* {
+    box-sizing: border-box;
+}
+
+body, html {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    padding: 0px;
+    margin: 0px;
+    font-size: 2.2rem;
+}
+
+a { text-decoration: none; }
+
+.bold {
+    color: $red;
+}
+.button {
+    background: $red;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 25px;
+}
+
+.hide {
+    display: none;
+}
+
+.rightSlide {
+    animation: 1.5s ease-in-out 0s 1 slideRight;
+}
+
+.leftSlide {
+    animation: 1.5s ease-in-out 0s 1 slideLeft; 
+}
+
+.xFlip {
+    animation: 1.5s ease-in-out 0s 1 xRotate; 
+}

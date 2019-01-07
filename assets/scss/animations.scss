@@ -1,0 +1,41 @@
+@keyframes slideRight {
+    0% {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+
+    85% {
+        transform: translateX(5%);
+    }
+
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+  @keyframes slideLeft {
+    0% {
+        transform: translateX(250%);
+    }
+
+    85% {
+        transform: translateX(-5%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes xRotate {
+    0% {
+        opacity: 0;
+        transform: rotateX(-90deg);
+    }
+
+    100% {
+        opacity: 1;
+        transform: rotateX(0deg);
+    }
+}
