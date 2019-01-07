@@ -1,0 +1,39 @@
+@import 'base';
+@import 'animations';
+  
+#canvas {
+	position: absolute;
+	display: block;
+	top: 0;
+	left: 0;
+    z-index: -1;
+    width: 100vw;
+    height: 100vh;
+    background: $aqua;
+}
+
+.greetings {
+    margin: 40vh auto 0;
+    z-index: 1;
+    text-align: center;
+    color: transparentize(white, 0.1);
+    text-shadow: 2px 3px 10px rgba(0,0,0,0.2);
+    max-width: 85%;
+}
+
+.contactMe {
+    display: inline-block;
+    margin-top: 20px;
+    transition: all ease-in-out 300ms;
+    box-shadow: 3px 5px 2px rgba(0,0,0,0.4);
+    &:hover {
+        transform: scale(1.1);
+        box-shadow: 13px 15px 18px rgba(0,0,0,0.2);
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .greetings {
+        margin-top: 30vh;
+    }
+}
