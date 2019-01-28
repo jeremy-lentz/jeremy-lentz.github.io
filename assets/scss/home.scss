@@ -1,5 +1,4 @@
 @import 'base';
-@import 'animations';
   
 #canvas {
 	position: absolute;
@@ -21,14 +20,12 @@
     max-width: 85%;
 }
 
-.contactMe {
-    display: inline-block;
-    margin-top: 20px;
-    transition: all ease-in-out 300ms;
-    box-shadow: 3px 5px 2px rgba(0,0,0,0.4);
+.nav-link {
+    color: transparentize($red, 0.4);
+    font-weight: 700;
+    transition: 0.2s ease-in all;
     &:hover {
-        transform: scale(1.1);
-        box-shadow: 13px 15px 18px rgba(0,0,0,0.2);
+        color: $red;
     }
 }
 
