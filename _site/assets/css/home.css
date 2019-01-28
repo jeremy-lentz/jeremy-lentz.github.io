@@ -37,8 +37,8 @@ a {
   max-width: 85%; }
 
 .nav-link {
-  color: rgba(209, 44, 114, 0.6);
-  font-weight: 700;
+  color: lightcoral;
+  font-weight: 300;
   -webkit-transition: 0.2s ease-in all;
   -o-transition: 0.2s ease-in all;
   transition: 0.2s ease-in all; }
@@ -48,24 +48,5 @@ a {
 @media screen and (max-width: 400px) {
   .greetings {
     margin-top: 30vh; } }
-* {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box; }
-
-body, html {
-  padding: 0;
-  margin: 0;
-  font-family: 'Montserrat', sans-serif; }
-
-h1 {
-  padding: 0px;
-  margin: 0px;
-  font-size: 2.2rem; }
-
-a {
-  text-decoration: none; }
-
-.bold {
-  color: #D12C72; }
 
 
